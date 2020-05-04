@@ -1,0 +1,8 @@
+[user]
+	email = jrobertsotero@gmail.com
+	name = Javier Roberts
+	signingKey = 58156F839CB8B17D
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
+[core]
+	editor = vim

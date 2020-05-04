@@ -1,0 +1,11 @@
+pulse/*
+!pulse/**/*.conf
+!pulse/**/*.pa
+redshift.conf
+!*/**/redshift.conf
+Code\ -\ OSS/
+JetBrains/
+spotify/
+discord/
+cef_user_data/
+dconf/

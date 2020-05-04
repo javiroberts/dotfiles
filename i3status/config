@@ -1,0 +1,57 @@
+general {
+	colors = true
+	color_good = "#BBBBBB"
+	color_bad = "#CC1616"
+	color_degraded = "#55858E"
+	interval = 2
+}
+
+order += "load"
+#order += "disk /"
+#order += "disk /home"
+#order += "memory"
+order += "wireless wlp2s0"
+order += "volume master"
+order += "battery all"
+order += "tztime local"
+
+volume master {
+	format = " vol: %volume " 
+	device = "default"
+	mixer = "Master"
+	mixer_idx = 0
+}
+
+battery all {
+	format = " bat: %percentage (%remaining) "
+	integer_battery_capacity = true
+	low_threshold = 15
+	threshold_type = percentage
+}
+
+load {
+	format = " load: %1min "
+}
+
+memory {
+	memory_used_method = memavailable
+	format = " mem: %used / %total "
+}
+
+disk "/" {
+	format = " /: %avail " 
+}
+
+disk "/home" {
+	format = " /home: %avail "
+}
+
+wireless wlp2s0 {
+	format_up = " wlp2s0: (%quality at %essid) %ip "
+	format_down = " wlp2s0 down "
+}
+
+
+tztime local {
+	format = " %h-%d %H:%M "
+}
