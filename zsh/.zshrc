@@ -11,7 +11,7 @@ HISTFILE=~/.cache/zsh/.zsh_history
 HISTSIZE=2000
 SAVEHIST=2000
 
-PROMPT='%B%F{11}%1~%f%b %# '
+PROMPT='%B%F{11}%~%f%b %# '
 
 # go
 export GOPATH=$HOME/workspace
