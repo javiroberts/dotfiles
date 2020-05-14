@@ -1,8 +1,10 @@
 [user]
-	email = jrobertsotero@gmail.com
+	email = javier@wilab.io
 	name = Javier Roberts
-	signingKey = 58156F839CB8B17D
+	signingkey = E4E507E1DBCFA22B12CF70D777D4D39398737052
 [url "git@gitlab.com:"]
 	insteadOf = https://gitlab.com/
 [core]
 	editor = vim
+[commit]
+	gpgsign = true
