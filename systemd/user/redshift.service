@@ -1,0 +1,13 @@
+[Unit]
+Description=Filter blue light on the screen calibrating white balance
+After=display-manager.service
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+ExecStart=/usr/bin/redshift
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

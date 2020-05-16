@@ -3,6 +3,7 @@ pulse/*
 !pulse/**/*.pa
 redshift.conf
 !*/**/redshift.conf
+configstore/
 Code\ -\ OSS/
 JetBrains/
 spotify/
@@ -12,4 +13,5 @@ dconf/
 unity3d/
 Slack/
 gtk-3.0/
+Simplenote/
 zoomus.conf
