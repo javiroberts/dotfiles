@@ -3,6 +3,7 @@ pulse/*
 !pulse/**/*.pa
 redshift.conf
 !*/**/redshift.conf
+systemd/user/default.target.wants/
 configstore/
 Code\ -\ OSS/
 JetBrains/
