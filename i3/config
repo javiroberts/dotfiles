@@ -1,4 +1,4 @@
-# Windows key as modifier
+# Window key as modifier
 set $mod Mod4
 
 # System font
@@ -171,3 +171,7 @@ bar {
         status_command py3status
         tray_output primary
 }
+
+# Window borders
+default_border normal 1
+hide_edge_borders both
