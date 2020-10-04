@@ -7,4 +7,6 @@
 [core]
 	editor = vim
 [commit]
-	gpgsign = true
+    gpgsign = true
+[pull]
+    rebase = false
