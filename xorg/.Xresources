@@ -40,7 +40,7 @@ Xft.dpi: 124
 *.color15:      #f9f7f3
 
 !! TERMINAL SETTINGS
-URxvt.font:xft:DejaVu Sans Mono:size=10
+URxvt.font:xft:DejaVu Sans Mono:size=9
 URxvt.letterSpace:0
 URxvt.lineSpace:0
 URxvt.cursorBlink:true
