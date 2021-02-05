@@ -2,16 +2,16 @@ general {
     interval = 2
 }
 
-order += "load"
-load {
-	format = "LOAD: %1min"
-}
+#order += "load"
+#load {
+#	format = "LOAD: %1min"
+#}
 
-order += "wireless wlp2s0"
-wireless wlp2s0 {
-	format_up = "wlp2s0: (%quality at %essid) %ip"
-	format_down = "wlp2s0 down"
-}
+#order += "wireless wlp2s0"
+#wireless wlp2s0 {
+#	format_up = "wlp2s0: (%quality at %essid) %ip"
+#	format_down = "wlp2s0 down"
+#}
 
 order += "volume master"
 volume master {

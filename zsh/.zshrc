@@ -19,10 +19,9 @@ export GOPRIVATE=gitlab.com/singularitycloud
 
 # aliases
 alias ls='ls --color=auto'
-alias vpn='sudo openconnect -b vpn.claro.com.ar'
+alias vpn='sudo snx -s vpn3.claro.com.ar -u exa54836'
 alias vpf='sudo openconnect vpn.claro.com.ar'
-alias sshdev='ssh exa54836@10.93.11.178'
-alias sshprod='ssh exa54836@10.92.112.137'
+alias ibm='ibmcloud'
 
 # miscelaneous
 setopt nomatch
